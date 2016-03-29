@@ -1,5 +1,13 @@
 <div class="settings">
-	<h4>Twitter Home</h4>
+  <h4>Twitter Home</h4>
 
+  <table>
+    <tr>
+      <td><a ui-sref="home.user">User Profile</a></td>
+      <td><a ui-sref="home.notifications">Notifications</a></td>
+      <td><a ui-sref="home.timeline">Timeline</a></td>
+    </tr>
+  </table>
 
+  <div ui-view></div>
 </div>
